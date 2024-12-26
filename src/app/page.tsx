@@ -2,14 +2,12 @@
 export default function Home() {
   return (
     <div className="bg-gray-50 min-h-screen text-gray-800">
-      
-
       {/* Hero Section */}
       <section className="container mx-auto px-6 py-16 text-center">
         <h2 className="text-5xl font-extrabold leading-tight">
           Transform Your Menu Into a QR Code
         </h2>
-        <p className="mt-4 text-lg">
+        <p className="mt-4 text-lg max-w-[500px] mx-auto">
           Create, customize, and share your restaurant&rsquo;s digital menu in
           just a few clicks. No hassle, no printing costs.
         </p>
