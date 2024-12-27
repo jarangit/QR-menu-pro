@@ -11,12 +11,20 @@ export default function Home() {
           Create, customize, and share your restaurant&rsquo;s digital menu in
           just a few clicks. No hassle, no printing costs.
         </p>
-        <a
-          href="#"
-          className="inline-block bg-black text-white px-6 py-3 rounded-md text-lg mt-8 hover:bg-gray-800"
-        >
-          Start for Free →
-        </a>
+        <div className="flex gap-2 justify-center">
+          <a
+            href="#"
+            className="inline-block bg-black text-white px-6 py-3 rounded-md text-lg mt-8 hover:bg-gray-800"
+          >
+            Start for Free →
+          </a>
+          <a
+            href="#"
+            className="inline-block border-2 font-medium border-black hover:border-gray-400  px-6 py-3 rounded-md text-lg mt-8"
+          >
+            Live Demo →
+          </a>
+        </div>
       </section>
 
       {/* Features Section */}
