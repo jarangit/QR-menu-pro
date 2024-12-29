@@ -1,5 +1,4 @@
 import "./globals.css";
-import TopMenu from "./ui-system/layout/top-menu";
 
 export default function RootLayout({
   children,
