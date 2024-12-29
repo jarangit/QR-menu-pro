@@ -10,16 +10,21 @@ const FoodCard = () => {
   return (
     <div>
       {/* food card */}
-      <div className="p-4 bg-white">
+      <div className="p-4">
         <div className="py-4 w-full h-[80vh] relative rounded-3xl overflow-hidden">
           <Image src={image} alt="" fill className="object-cover" />
+          {/* bg overlay */}
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/25 to-transparent"></div>
+
+          {/* km */}
           <div className="absolute left-4 top-4 ">
             <div className="bg-white/20 text-white/70 text-sm font-bold h-8 flex justify-center items-center px-2 rounded-full gap-1 ">
               <MdLocationOn size={15} />
               <div>1 km</div>
             </div>
           </div>
+
+          {/* list button right */}
           <div className="absolute bottom-4 right-4 flex flex-col gap-4 justify-around items-center ">
             <div className="w-12 h-12 bg-white/30 rounded-full  flex justify-center items-center backdrop-blur text-orange-400/70">
               <FaStar size={20} />
@@ -32,6 +37,7 @@ const FoodCard = () => {
             </div>
           </div>
 
+          {/* menu info */}
           <div className="absolute bottom-5 left-4  leading-[3] text-white ">
             <h1 className="text-xl font-bold border-b uppercase">
               roadted lamp
