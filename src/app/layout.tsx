@@ -1,3 +1,4 @@
+import NavBar from "./components/navbar";
 import "./globals.css";
 
 export default function RootLayout({
@@ -9,9 +10,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={`antialiased min-h-screen`}>
         {/* Header */}
-        <header>
-          {/* <TopMenu /> */}
-        </header>
+        <header>{/* <TopMenu /> */}</header>
+        <NavBar />
         <div className="min-h-screen">{children}</div>
         {/* Footer */}
         {/* <footer className="bg-black text-white py-6">
